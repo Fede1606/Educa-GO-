@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educa GO!</title>
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- TUS CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR BOOTSTRAP -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--dark-blue);">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/educargodeff.png" alt="" height="45">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#juegos">Juegos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero text-center">
+    <div class="container">
+      <h1>Aprender nunca fue tan divertido</h1>
+      <p>Transformamos la educación en una experiencia interactiva y creativa para todos los niños.</p>
+      <a href="fitGO.html" class="btn btn-success btn-lg">Explorar Juegos</a>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="container py-5 section-card">
+    <h2 class="section-title text-center mb-4">Quiénes Somos</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <p>En Educar GO! creemos que la educación debe ser divertida, accesible y transformadora...</p>
+        <p>Nuestro objetivo es motivar a cada niño a aprender usando la tecnología de manera responsable y educativa.</p>
+      </div>
+      <div class="col-md-6 d-flex align-items-center justify-content-center">
+        <a href="nosotros.html" class="btn btn-warning btn-lg">Conocenos!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- JUEGOS -->
+  <section id="juegos" class="container py-5 section-card">
+    <h2 class="section-title text-center mb-4">Nuestros Juegos</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Fit GO!</h5>
+            <p class="card-text">Un juego educativo que enseña la importancia del ejercicio físico.</p>
+            <a href="fitGO.html" class="btn btn-success btn-lg">Ver Más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Mind GO!</h5>
+            <p class="card-text">Desafíos de lógica y memoria que estimulan la mente de los niños.</p>
+            <button class="btn btn-secondary" disabled>Próximamente</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="container py-5 section-card text-center">
+    <h2 class="section-title mb-4">Contacto</h2>
+    <form class="mx-auto" style="max-width:500px;">
+      <input type="text" class="form-control mb-3" placeholder="Tu nombre" required>
+      <input type="email" class="form-control mb-3" placeholder="Tu correo" required>
+      <textarea class="form-control mb-3" placeholder="Tu mensaje" rows="4" required></textarea>
+      <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer text-center py-4" style="background-color: var(--dark-blue); color:white;">
+    <p>&copy; 2025 Educar GO! - Aprendizaje Interactivo</p>
+  </footer>
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

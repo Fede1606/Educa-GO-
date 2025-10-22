@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego: Aventura Saludable | Educa GO!</title>
+
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- TUS CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="fitGO.css">
+</head>
+<body>
+
+  <!-- NAVBAR BOOTSTRAP -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--dark-blue);">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/educargodeff.png" alt="" height="45">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="fitGO.html">Juegos</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO DEL JUEGO -->
+  <section class="hero hero-juego">
+    <div class="container text-center">
+      <img src="img/fitgodef.png" alt="">
+      <p>Slogan...</p>
+    </div>
+  </section>
+
+  <!-- DE QUÉ TRATA -->
+  <section class="container card-section">
+    <h2 class="section-title">¿De qué trata el juego?</h2>
+    <p>
+      <strong>Fit GO!</strong> es un juego donde el jugador asume diferentes roles para aprender sobre la importancia de mantener un estilo de vida saludable. A través de niveles interactivos, los jugadores descubrirán cómo la alimentación balanceada, el ejercicio regular ayudan a tener una vida más saludable.
+    </p>
+  </section>
+
+  <!-- CÓMO JUGAR -->
+  <section class="container card-section">
+    <h2 class="section-title">Cómo Jugar</h2>
+    <p>
+      Tu objetivo es completar los niveles recolectando alimentos saludables y evitando obstáculos.
+      Utilizá las teclas de movimiento y toma decisiones correctas para avanzar.
+    </p>
+    <a href="documentacion.html" class="btn btn-primary" target="_blank">Ver Documentación</a>
+  </section>
+
+  <!-- GALERÍA (CARROUSEL BOOTSTRAP) -->
+  <section class="container card-section">
+    <h2 class="section-title">Galería</h2>
+
+    <div id="carouselJuego" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="img/game1.jpg" class="d-block w-100" alt="Captura 1">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/game2.jpg" class="d-block w-100" alt="Captura 2">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/game3.jpg" class="d-block w-100" alt="Captura 3">
+        </div>
+
+      </div>
+
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselJuego" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselJuego" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Educa GO! - Aprendizaje Interactivo</p>
+    </div>
+  </footer>
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
